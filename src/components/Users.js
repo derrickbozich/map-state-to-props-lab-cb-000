@@ -7,7 +7,7 @@ class Users extends Component {
     return (
       <div>
         <ul>
-          <
+          {this.state.users}
         </ul>
       </div>
     )
