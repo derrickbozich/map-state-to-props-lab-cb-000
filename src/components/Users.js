@@ -12,11 +12,11 @@ class Users extends Component {
     } else {
       users = <div></div>
     }
-    const 
+    const
     return (
       <div>
         <ul>
-          {this.props.users}
+          {users}
         </ul>
       </div>
     )
