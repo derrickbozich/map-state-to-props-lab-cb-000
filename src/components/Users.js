@@ -18,4 +18,4 @@ class Users extends Component {
 const mapStateToProps = ({state}) => ({state})
 
 
-export default Users
+export default connect(mapStateToProps)(Users)
