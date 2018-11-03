@@ -16,7 +16,7 @@ class Users extends Component {
 
 //add mapStateToProps here
 const mapStateToProps = state => {
-  users: this.state
+  users: state
 }
 
 
