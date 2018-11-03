@@ -7,7 +7,7 @@ class Users extends Component {
     return (
       <div>
         <ul>
-          Users!
+          <
         </ul>
       </div>
     )
@@ -15,7 +15,7 @@ class Users extends Component {
 }
 
 //add mapStateToProps here
-const mapStateToProps = ({state}) => ({state})
+const mapStateToProps = state => ({state})
 
 
 export default connect(mapStateToProps)(Users)
